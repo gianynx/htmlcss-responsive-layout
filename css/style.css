@@ -85,6 +85,10 @@ MEDIA QUERY
         max-width: 62rem;
     }
 
+    .flex_nav_desktop {
+        display: none;
+    }
+
     .flex_nav_tablet {
         display: flex;
         flex-flow: row nowrap;
@@ -98,15 +102,18 @@ MEDIA QUERY
         max-width: 75rem;
         margin: 0 auto;
     }
+
     header nav .fa-solid {
         display: none;
     }
+
     .flex_nav_desktop {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
     }
+
     header nav ul {
         display: block;
         color: var(--primary_color);
