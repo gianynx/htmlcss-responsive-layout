@@ -24,3 +24,7 @@ html {
 body {
     font-family: 'PT Sans', sans-serif;
 }
+
+.container {
+    padding: 15px;
+}
