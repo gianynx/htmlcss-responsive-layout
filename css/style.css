@@ -1,0 +1,26 @@
+/*****************************************************
+CSS general
+*****************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_nav: #0084fd;
+    --primary_color: #ffffff;
+    --dark_color: #000000;
+    --even_color: #9792e4;
+    --grey_benefits: #a5a5a5;
+    --contrast_color: #fdc15f;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
