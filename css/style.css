@@ -28,3 +28,36 @@ body {
 .container {
     padding: 15px;
 }
+
+/*****************************************************
+SITE SECTIONS
+*****************************************************/
+
+/* HEADER */
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 5rem;
+    background-color: var(--color_nav);
+}
+
+ul {
+    list-style: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: none;
+}
+
+header nav a {
+    color: var(--primary_color);
+}
