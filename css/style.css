@@ -15,6 +15,8 @@ CSS GENERAL
     --even_color: #9792e4;
     --grey_benefits: #a5a5a5;
     --contrast_color: #fdc15f;
+    --card_color: #b5ddff;
+    --text_card_color: #5a6e7f;
 }
 
 html {
@@ -52,6 +54,10 @@ ul {
     list-style: none;
 }
 
+.text {
+    text-decoration: none;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -69,12 +75,33 @@ header nav a {
 /* MAIN */
 
 main {
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
-.text {
-    text-decoration: none;
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: var(--card_color);
+    padding: 30px 25px;
 }
+
+.h3_style {
+    color: var(--color_nav);
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: 30px;
+}
+
+.text_card {
+    width: 21rem;
+    margin-left: 1rem;
+    color: var(--text_card_color);
+    font-weight: bold;
+    line-height: 33px;
+    font-size: 20px;
+}
+
+
 
 /*****************************************************
 MEDIA QUERY
