@@ -72,6 +72,10 @@ header nav a {
     color: var(--primary_color);
 }
 
+.fa-bars {
+    font-size: 28px;
+}
+
 /* MAIN */
 
 main {
@@ -148,10 +152,6 @@ MEDIA QUERY
 *****************************************************/
 
 @media screen and (max-width: 991px) {
-    .container {
-        max-width: 62rem;
-    }
-
     .flex_nav_desktop {
         display: none;
     }
@@ -192,12 +192,19 @@ MEDIA QUERY
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .flex_card {
+    .flex_card_tablet {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
 
-    
+    .card_left_tablet {
+        width: 68%;
+    }
+
+    .card_right_tablet {
+        width: 32%;
+        padding-bottom: 35.8rem;
+    }
 }
