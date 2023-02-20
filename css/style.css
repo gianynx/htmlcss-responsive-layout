@@ -76,6 +76,14 @@ header nav a {
     font-size: 28px;
 }
 
+.p_l_20 {
+    padding-left: 20px;
+}
+
+.p_r_20 {
+    padding-right: 20px;
+}
+
 /* MAIN */
 
 main {
@@ -205,6 +213,35 @@ MEDIA QUERY
 
     .card_right_tablet {
         width: 32%;
-        padding-bottom: 35.8rem;
+        padding-bottom: 36rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .flex_card_desk {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .card_left_desk {
+        width: 40%;
+    }
+
+    .card_right_desk {
+        width: 40%;
+    }
+
+    .card_right_tablet {
+        padding-bottom: 6.9rem;
+    }
+
+    .card_right {
+        padding-top: 11rem;
     }
 }
