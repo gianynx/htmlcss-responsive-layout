@@ -25,6 +25,7 @@ html {
 
 body {
     font-family: 'PT Sans', sans-serif;
+    background-color: var(--primary_color);
 }
 
 .container {
@@ -86,15 +87,20 @@ header nav a {
 
 /* MAIN */
 
+/* #INTRO */
+
 main {
     margin-top: 8rem;
 }
 
 .card {
     margin: 20px;
-    border-radius: 10px;
     background-color: var(--card_color);
     padding: 38px 25px;
+}
+
+.border_radius_20 {
+    border-radius: 20px;
 }
 
 .card_left {
@@ -138,6 +144,7 @@ main {
 
 #card_right_img {
     width: 100%;
+    display: block;
 }
 
 .p_b_0 {
@@ -152,6 +159,26 @@ main {
 
 .text_align {
     text-align: center;
+}
+
+/* #PLANNING */
+
+.even {
+    background-color: var(--even_color);
+}
+
+#planning .planning_left img {
+    width: 100%;
+}
+
+.planning_left {
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--dark_color);
 }
 
 
@@ -169,6 +196,43 @@ MEDIA QUERY
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .flex_nav_desktop {
+        display: none;
+    }
+
+    .flex_nav_tablet {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container {
+        max-width: 750px;
+    }
+    
+    .flex_card_tablet {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .card_left_tablet {
+        width: 68%;
+    }
+
+    .card_right_tablet {
+        width: 32%;
+        padding-bottom: 14.4rem;
+    }
+
+    #card_right_img {
+        width: 60%;
     }
 }
 
@@ -197,31 +261,7 @@ MEDIA QUERY
     header nav ul li {
         padding: 15px;
     }
-}
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .flex_card_tablet {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    .card_left_tablet {
-        width: 68%;
-    }
-
-    .card_right_tablet {
-        width: 32%;
-        padding-bottom: 14.4rem;
-    }
-
-    #card_right_img {
-        width: 60%;
-    }
-}
-
-@media screen and (min-width: 992px) {
     .flex_card_desk {
         display: flex;
         flex-flow: row nowrap;
