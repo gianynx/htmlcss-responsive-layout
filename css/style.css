@@ -408,3 +408,27 @@ footer .footer_content {
 /*****************************************************
 MEDIA QUERY
 *****************************************************/
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .container {
+        max-width: 991px;
+    }
+
+    .flex_intro_tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .intro_tablet_left {
+        width: 68%;
+    }
+
+    .intro_tablet_right {
+        width: 32%;
+    }
+
+    #card_right_img {
+        width: 60%;
+    }
+}
