@@ -439,4 +439,27 @@ MEDIA QUERY
     #planning p {
         font-size: 20px;
     }
+    
+    .card_test_img {
+        width: 55%;
+        height: 22vw;
+    }
+
+    .p_test_tablet {
+        padding-top: 60px;
+    }
+
+    .flex_test_tablet {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .left > p {
+        font-size: 25px;
+    }
 }
