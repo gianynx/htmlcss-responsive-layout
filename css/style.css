@@ -431,4 +431,12 @@ MEDIA QUERY
     #card_right_img {
         width: 60%;
     }
+
+    #h2_planning {
+        font-size: 80px;
+    }
+
+    #planning p {
+        font-size: 20px;
+    }
 }
